@@ -13,3 +13,17 @@ namespace MyApp // Note: actual namespace depends on the project name.
         }
     }
 }
+
+/*
+What? A class member that encapsulates a getter/setter fo accessing a field.
+
+Why?
+To create a getter/setter with less code.
+
+
+
+
+*/
+
+
+
