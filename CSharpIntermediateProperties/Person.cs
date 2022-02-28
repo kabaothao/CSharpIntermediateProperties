@@ -8,6 +8,21 @@ namespace CSharpIntermediateProperties
 {
     public class Person
     {
+
+        //public string Name { get; set; }
+        //public string Username { get; set; }
+
+        //type prop and click on tab twice
+
+
+        /*So always declare all your auto implemented properties on the top of a vertical separator and then put
+
+          the calculated properties on the bottom.
+        */
+
+
+
+
         public Person(DateTime birthdate)
         {
             Birthdate = birthdate;
