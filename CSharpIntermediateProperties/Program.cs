@@ -9,7 +9,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Person();
+            person.Birthdate = new DateTime(1982, 1, 1);
+            Console.WriteLine();
         }
     }
 }
